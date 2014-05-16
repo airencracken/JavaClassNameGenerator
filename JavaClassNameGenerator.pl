@@ -39,6 +39,7 @@ my @nonsense = qw(
 	Service
 	Global
 	Parser
+	Session
 );
 
 my $rand = int(rand(scalar @nonsense - 1));
