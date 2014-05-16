@@ -33,6 +33,12 @@ my @nonsense = qw(
         Loader
         Iterator
         Generator
+	Util
+	Servlet
+	Tokenizer
+	Service
+	Global
+	Parser
 );
 
 my $rand = int(rand(scalar @nonsense - 1));
