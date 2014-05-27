@@ -5,41 +5,41 @@ use strict;
 use warnings;
 
 my @nonsense = qw(
-        Serializer
-        Listener
-        XML
-        Builder
-        Interface
-        Manager
-        Handler
-        Factory
-        Observer
         Abstract
+        Actor
+        Adapter
         Bean
-        Interceptor
+        Builder
+        Facade
+        Factory
+        Generator
+        Global
+        Handler
         Injector
-        Strategy
-        Wrapper
+        Interceptor
+        Interface
+        Iterator
         Lazy
+        Listener
+        Loader
+        Manager
+        Mediator
+        Observer
+        Parser
         Pool
         Prototype
-        Adapter
-        Facade
-        Mediator
-        Visitor
         Scheduler
-        Actor
+        Serializer
+        Service
+        Servlet
+        Session
         Singleton
-        Loader
-        Iterator
-        Generator
-	Util
-	Servlet
-	Tokenizer
-	Service
-	Global
-	Parser
-	Session
+        Strategy
+        Tokenizer
+        Util
+        Visitor
+        Wrapper
+        XML
 );
 
 my $rand = int(rand(scalar @nonsense - 1));
