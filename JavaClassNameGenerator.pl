@@ -10,6 +10,8 @@ my @nonsense = qw(
 	Adapter
 	Bean
 	Builder
+	Composer
+	Decorator
 	Facade
 	Factory
 	Generator
@@ -24,6 +26,7 @@ my @nonsense = qw(
 	Loader
 	Manager
 	Mediator
+	Mutex
 	Observer
 	Parser
 	Pool
