@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 
-use 5.10.0;
 use strict;
 use warnings;
 
@@ -46,11 +45,9 @@ my @nonsense = qw(
 );
 
 my $rand = int(rand(scalar @nonsense - 1));
-my @class_name;
 
 for (0..$rand) {
-	push @class_name, $nonsense[rand @nonsense];
+	print $nonsense[rand @nonsense];
 }
 
-say @class_name;
-
+print "\n";
